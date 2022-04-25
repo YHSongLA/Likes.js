@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="container">
+        <h1 class="header-h1">Network</h1>
+    </header>
+
+    <h1 class="main-h1 container">Your Feed</h1>
+    
+    <main class="container flex">
+        <div class="col-left">
+            <div class="avatar-card flex">
+                <div class="avatar">
+                    <div>
+                        <img src="user-circle.png" alt="avatar" class="avatar-img">
+                    </div>
+                    <div>
+                        <a href="#">Add on avatar</a>
+                    </div>
+                    <div>
+                        John Doe
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-right">
+            <div class="neil-card">
+                <div class="neil-m flex">
+                    <h2>Neil M</h2>
+                    <p><span id="likes1">9</span>like(s)</p>
+                    <button onclick="addLikes(likes1)">Like</button>
+                </div>
+                <div class="neil-p">
+                    <p>I just set up this new discord bot, let me<br>
+                    know what you think. <a href="#">link</a></p>
+                </div>
+            </div>
+
+            <div class="nichole-card">
+                <div class="nichole-k flex">
+                    <h2>Neil M</h2>
+                    <p><span id="likes2">9</span>like(s)</p>
+                    <button onclick="addLikes(likes2)">Like</button>
+                </div>
+                <div class="nichole-p">
+                    <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                </div>
+            </div>
+
+            <div class="jim-card">
+                <div class="jim-r flex">
+                    <h2>Neil M</h2>
+                    <p><span id="likes3">12</span>like(s)</p>
+                    <button onclick="addLikes(likes3)">Like</button>
+                </div>
+
+                <div class="jim-p">
+                    <p>I can't stop listening to the <a href="#">new album</a>.<br>
+                    Who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
